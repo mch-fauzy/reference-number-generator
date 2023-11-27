@@ -13,5 +13,5 @@ To get started, follow the steps below:
    ```
 4. Or Test the program:
    ```
-   npm test
+   npm run test
    ```
