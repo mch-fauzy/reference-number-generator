@@ -17,7 +17,7 @@ class ReferenceNumberGenerator {
         const year = this.currentDate.getFullYear().toString();
         const month = this.padZero(this.currentDate.getMonth() + 1, 2); // returns a zero-based month, where January is represented by 0
         const day = this.padZero(this.currentDate.getDate(), 2);
-        const shortYear = year.slice(2);
+        const shortYear = year.slice(2); // return array start from index 2
 
         const result = template
             .replace("{SEQ}", this.padZero(seq, 4))
